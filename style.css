@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('https://pps.whatsapp.net/v/t61.24694-24/262560450_1082829048972803_8483426434560638678_n.jpg?ccb=11-4&oh=01_AVynwZ8f2p2ZdizygzfaKTIJi_IyCqjpa-iJZwZbhGAoMg&oe=62BF54F8')
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: calc(100vw + 100px);
+  height: calc(90vh + 150px);
+  z-index: auto;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
